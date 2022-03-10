@@ -50,7 +50,6 @@ def startprogramma():
     countdown()
     pointslabel.place(x=600)
     
-    #bug: key unbind niet
 def createKeyBind():
     global buttonsBindRandom, buttonBind, buttonList, listRandom
     print(buttonBind[listRandom])
